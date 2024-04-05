@@ -6,7 +6,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   return (
       <header class="bg-white shadow-md">
-  <div class="mx-auto flex h-16 border-b-2 max-w-screen-xxl  items-center gap-8 px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto flex h-16 border-b-2 max-w-screen-xxl items-center gap-8 px-4 sm:px-6 lg:px-8">
     <img src='https://th.bing.com/th/id/OIP.Q42NGjaBYlQ87rsPCLfn-AHaEK?rs=1&pid=ImgDetMain' class="w-12 h-auto"></img>
 
     <div class="flex flex-1 items-center justify-end md:justify-between">
