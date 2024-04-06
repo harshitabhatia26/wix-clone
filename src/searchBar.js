@@ -8,7 +8,7 @@ const SearchBar = () => {
             <input
                 type="text"
                 id="Search"
-                placeholder="Search for..."
+                placeholder="Search all templates..."
                 className="w-full rounded-md border-gray-200 py-2.5 pe-10 shadow-sm sm:text-sm"
             />
 

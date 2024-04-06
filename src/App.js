@@ -4,6 +4,7 @@ import NavbarSec from "./NavbarSec";
 import Templates from './templates';
 import Pagination from "./pagination";
 import FooterOne from "./footerOne";
+import FooterBottom from "./FooterBottom";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
    <Templates />
    <Pagination />
    <FooterOne />
+   <FooterBottom />
     </div>
   );
 }
