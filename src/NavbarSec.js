@@ -46,15 +46,15 @@ const NavbarSec = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            <div className="sm:flex sm:gap-4">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
-                  <a className="text-black transition hover:text-blue-700 xl:hidden" href="#"> All </a>
-                  <a className="text-blue-700 transition hover:text-blue-700 hidden xl:block" href="#"> All Templates </a>
+                  <a className="text-blue-700 transition hover:text-black xl:hidden" href="#"> All </a>
+                  <a className="text-blue-700 transition hover:text-black hidden xl:block" href="#"> All Templates </a>
                 </li>
                 <div className="border-r h-6"></div>
                 <li>
-                  <a className="text-black transition hover:text-blue-700" href="#"> Blank Templates </a>
+                <a className="text-black transition hover:text-blue-700 xl:hidden" href="#"> Blank </a>
+                  <a className="text-black transition hover:text-blue-700 hidden xl:block" href="#"> Blank Templates </a>
                 </li>
                 <div className="border-r h-6"></div>
                 <li>
@@ -62,7 +62,6 @@ const NavbarSec = () => {
                   <FontAwesomeIcon icon={faChevronDown} size="xs" />
                 </li>
               </ul>
-            </div>
 
             <button
               className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-blue-700 lg:hidden"
